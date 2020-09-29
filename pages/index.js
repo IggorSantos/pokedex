@@ -13,7 +13,7 @@ export async function getStaticProps(context) {
   return {
     props: {
       pokemons
-    }, 
+    },
   }
 }
 
@@ -22,7 +22,7 @@ export default function Home(props){
 
   return(
     <div>
-     Pokedex
+     Pokedex - Igor Santos
      <ul>
        {pokemons.map((pokemon) => (
          <li key={pokemon.entry_number}>
